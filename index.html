@@ -14,12 +14,13 @@
     <div class="container">
         <div class="jumbotron">
             <h1>The Akan names system!</h1>
-            <h2>Everything You Need to Know About the Ghanaian Tradition of Day Names</h2>
         </div>
         <img src="./images/image.jpg" width="1150px" height="500px">
 
         <div class="row" style="margin-top: 30px;">
+            <h2>Everything You Need to Know About the Ghanaian Tradition of Day Names</h2>
             <div class="col-md-6">
+
         
         <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive. In Ashanti homes, Sunday-born males and females are named Kwasi or Kwesi and Akosua respectively (meaning ‘associated with the universe’); Monday-born are Kwadwo or Kojo, Adjoa or Adwoa (meaning ‘associated with peace’);</p>
             </div>
@@ -32,8 +33,8 @@
       <h2>Enter Your Details Here!</h2>
       <form name="myForm" class="form" onsubmit="return getAkanName()">
         <div class="form-group">
-          <label for="year-of-birth">Year of Birth:</label>
-          <input type="number" class="form-control" id="year-input" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+            <label for="year-of-birth">Year of Birth:</label>
+            <input type="number" class="form-control" id="year-input" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
         </div>
         <div class="form-group">
           <label for="month-of-birth">Month of Birth:</label>
@@ -53,20 +54,23 @@
       
               </label>
           </div>
+          <br>
         <input id="get-name" type="submit" name="" value="Generate name">
-        <br><br>
+        <br>
       </form>
       <form onsubmit="return clearInput()">
         <input class="clear" type="submit" value="Clear input">
-
+           <br><br>
       <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
       <p id="result"></p>
+      <br>
+      <br>
     </div>
   </div>
 </form>
 </div>
 </div>
-<div class="footer">
+<div class="footer" style="margin-top: 50px;">
     Copyright © 2021: Dennis Cheruiyot
 </div>
    <script src="js/scripts.js"></script> 
