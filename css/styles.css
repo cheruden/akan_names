@@ -1,5 +1,6 @@
 body{
-    background-color: rosybrown;
+    background-color: #88bdbc;;
+    opacity: 1.0;
 }
 .overlay{
     background-color: rgba(0, 0, 0, 0.4);
