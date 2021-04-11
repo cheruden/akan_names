@@ -67,3 +67,8 @@ h1 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.row{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
